@@ -1,4 +1,25 @@
 
+================================================================================
+=                                                                              = 
+=                                AVR-RFM12                                     = 
+=                                                                              = 
+=                An open source Home  Automation by MDL 29                     = 
+================================================================================
+
+
+
+Goal
+====
+This project aims to provide an opensource alternative DIY source for home 
+automation. This project use some opensource software and hardware. 
+
+
+Changelog 
+=========
+- 20/06/2010 : First initial schematic 
+
+
+
 PCB
 === 
 
@@ -13,4 +34,9 @@ The first PCB is a Atmega32u2 (or AT90USB162) that connect to USB
 and send/receive infos thought the RFM12. 
 
 
+
+Licence
+=======
+- All software provided here are under GPL v3
+- All hardware schematics, PCB are covered by the Creative Common By NC
 
