@@ -1,0 +1,16 @@
+
+PCB
+=== 
+
+Software:
+- gschem 
+- PCB (gtk version) 
+
+To install the component in your gschem installation dir : 
+$ sudo cp gschem-components/* /usr/share/gEDA/sym/local/
+
+The first PCB is a Atmega32u2 (or AT90USB162) that connect to USB
+and send/receive infos thought the RFM12. 
+
+
+
