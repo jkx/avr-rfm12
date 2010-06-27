@@ -1,4 +1,4 @@
-v 20100214 2
+v 20081231 1
 C 40000 40000 0 0 0 title-B.sym
 C 30800 41800 1 0 0 atmega32u2.sym
 {
@@ -7,7 +7,7 @@ device=ATMEGA32
 T 32200 51400 5 10 0 0 0 0 1
 footprint=MLF 44
 T 35400 51000 5 10 1 1 0 0 1
-refdes=U?
+refdes=U1
 T 32200 51800 5 10 0 0 0 0 1
 symversion=1.0
 }
@@ -16,7 +16,7 @@ C 30900 41900 1 180 0 crystal-1.sym
 T 30700 41400 5 10 0 0 180 0 1
 device=CRYSTAL
 T 30700 41600 5 10 1 1 180 0 1
-refdes=U?
+refdes=U4
 T 30700 41200 5 10 0 0 180 0 1
 symversion=0.1
 }
@@ -27,7 +27,7 @@ C 30400 40700 1 90 0 capacitor-1.sym
 T 29700 40900 5 10 0 0 90 0 1
 device=CAPACITOR
 T 29900 40900 5 10 1 1 90 0 1
-refdes=C?
+refdes=C4
 T 29500 40900 5 10 0 0 90 0 1
 symversion=0.1
 }
@@ -36,7 +36,7 @@ C 31100 40700 1 90 0 capacitor-1.sym
 T 30400 40900 5 10 0 0 90 0 1
 device=CAPACITOR
 T 30600 40900 5 10 1 1 90 0 1
-refdes=C?
+refdes=C5
 T 30200 40900 5 10 0 0 90 0 1
 symversion=0.1
 }
@@ -49,7 +49,7 @@ C 29600 50200 1 0 0 resistor-1.sym
 T 29900 50600 5 10 0 0 0 0 1
 device=RESISTOR
 T 29800 50500 5 10 1 1 0 0 1
-refdes=R?
+refdes=R2
 }
 N 30500 50300 30900 50300 4
 N 29600 50300 29200 50300 4
@@ -62,7 +62,7 @@ device=ATMEGA32
 T 25700 52300 5 10 0 0 0 0 1
 footprint=MLF 44
 T 26800 46300 5 10 1 1 0 0 1
-refdes=U?
+refdes=U2
 T 25700 52700 5 10 0 0 0 0 1
 symversion=1.0
 }
@@ -96,7 +96,7 @@ C 28600 44500 1 180 0 resistor-1.sym
 T 28300 44100 5 10 0 0 180 0 1
 device=RESISTOR
 T 28500 44200 5 10 1 1 180 0 1
-refdes=R?
+refdes=R5
 T 28200 44200 5 10 1 1 180 0 1
 value=10k
 }
@@ -119,7 +119,7 @@ C 30500 48000 1 90 0 capacitor-1.sym
 T 29800 48200 5 10 0 0 90 0 1
 device=CAPACITOR
 T 30000 48200 5 10 1 1 90 0 1
-refdes=C?
+refdes=C3
 T 29600 48200 5 10 0 0 90 0 1
 symversion=0.1
 T 30700 48300 5 10 1 1 90 0 1
@@ -132,7 +132,7 @@ C 27300 48900 1 0 0 connector4-1.sym
 T 29100 49800 5 10 0 0 0 0 1
 device=CONNECTOR_4
 T 27300 50300 5 10 1 1 0 0 1
-refdes=CONN?
+refdes=CONN1
 }
 C 28900 48700 1 0 0 gnd-1.sym
 N 29000 49000 29000 49100 4
@@ -144,7 +144,7 @@ device=ATMEGA32
 T 25200 56300 5 10 0 0 0 0 1
 footprint=MLF 44
 T 25800 49300 5 10 1 1 0 0 1
-refdes=U?
+refdes=U3
 T 25200 56700 5 10 0 0 0 0 1
 symversion=1.0
 }
@@ -169,7 +169,7 @@ C 37600 49500 1 0 0 led-1.sym
 T 38400 50100 5 10 0 0 0 0 1
 device=LED
 T 38400 49900 5 10 1 1 0 0 1
-refdes=LED?
+refdes=LED1
 T 38400 50300 5 10 0 0 0 0 1
 symversion=0.1
 }
@@ -178,7 +178,7 @@ C 36200 49600 1 0 0 resistor-1.sym
 T 36500 50000 5 10 0 0 0 0 1
 device=RESISTOR
 T 36400 49900 5 10 1 1 0 0 1
-refdes=R?
+refdes=R6
 }
 N 35900 49700 36200 49700 4
 N 37100 49700 37600 49700 4
@@ -190,14 +190,18 @@ C 29500 49600 1 0 0 resistor-1.sym
 T 29800 50000 5 10 0 0 0 0 1
 device=RESISTOR
 T 29600 49800 5 10 1 1 0 0 1
-refdes=R?
+refdes=R3
+T 29500 49600 5 10 1 1 0 0 1
+value=22
 }
 C 29500 49200 1 0 0 resistor-1.sym
 {
 T 29800 49600 5 10 0 0 0 0 1
 device=RESISTOR
 T 29600 49400 5 10 1 1 0 0 1
-refdes=R?
+refdes=R4
+T 29500 49200 5 10 1 1 0 0 1
+value=22
 }
 N 29000 49700 29500 49700 4
 N 30400 49700 30900 49700 4
@@ -211,7 +215,7 @@ C 24700 49800 1 90 0 capacitor-1.sym
 T 24000 50000 5 10 0 0 90 0 1
 device=CAPACITOR
 T 24200 50100 5 10 1 1 90 0 1
-refdes=C?
+refdes=C1
 T 23800 50000 5 10 0 0 90 0 1
 symversion=0.1
 T 24900 50100 5 10 1 1 90 0 1
@@ -222,7 +226,7 @@ C 25700 49800 1 90 0 capacitor-1.sym
 T 25000 50000 5 10 0 0 90 0 1
 device=CAPACITOR
 T 25200 50000 5 10 1 1 90 0 1
-refdes=C?
+refdes=C2
 T 24800 50000 5 10 0 0 90 0 1
 symversion=0.1
 T 25900 50100 5 10 1 1 90 0 1
@@ -243,7 +247,7 @@ C 22800 46200 1 270 0 resistor-1.sym
 T 23200 45900 5 10 0 0 270 0 1
 device=RESISTOR
 T 23100 46100 5 10 1 1 270 0 1
-refdes=R?
+refdes=R1
 T 23100 45800 5 10 1 1 270 0 1
 value=10k
 }
