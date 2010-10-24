@@ -3,8 +3,8 @@ CC=avr-gcc
 OBJCOPY=avr-objcopy
 
 
-CFLAGS=-mmcu=$(MCU) -Wall -Wstrict-prototypes -mcall-prologues
-CFLAGS=-g -mmcu=$(MCU) -Wall -Wstrict-prototypes -mcall-prologues
+CFLAGS=-mmcu=$(MCU) -Wall -Wstrict-prototypes -O3  -mcall-prologues
+#CFLAGS=-g -mmcu=$(MCU) -Wall -Wstrict-prototypes -mcall-prologues
 
 all: main.hex
 
@@ -60,4 +60,4 @@ run: main.hex
 #--------------
 # load (program) the software into the eeprom:
 load: main.hex
-	avrdude -p usb162 -c stk500v2  -U flash:w:main.hex -y -V	
+	avrdude -P /dev/ttyUSB0 -p usb162 -F -c stk500v2  -U flash:w:main.hex -y -V	
