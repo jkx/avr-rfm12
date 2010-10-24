@@ -15,8 +15,10 @@
 #include <avr/power.h>
 
 
+
 #include "avr_compat.h"
 #include "io_macro.h"
 
 #define F_CPU 16000000        /* Oszillator-Frequenz in Hz */
+#include <util/delay.h>
 #endif
